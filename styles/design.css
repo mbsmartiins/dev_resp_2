@@ -1,0 +1,130 @@
+footer{
+    background-color: #60441b;
+    color: black;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabeca{
+    background-color: #60441b;
+    border-radius: 15px 15px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.titl {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 50px;
+}
+
+.fechar-conta {
+text-align: center;
+    font-size: 1.1rem;
+    width: 190px;
+    text-wrap: nowrap;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    padding: 1rem;   
+    transition: all 0.4s;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.9);
+}
+
+.dev-resp{
+    background-color: gray;
+    border-radius: 45%;
+    width: 15%;
+    text-align: center;
+}
+
+.fechar-conta{
+    background-color: bisque;
+    border-radius: 20%;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+}
+
+/* cabeçalho */
+
+.cabecalho {
+    background-color: #60441b;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0 0 0 2%;
+}
+
+.logo-img {
+    width: 6.7rem;
+}
+
+.botao {
+    margin: 0 2% 0 0;
+}
+
+.botao button {
+    background-color: white;
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-radius: 20px;
+}
+
+.lista {
+    margin: 2rem 0 2rem 0;
+    width: 100%;
+}
+
+.lista ul {
+    display: flex;
+    justify-content: center;
+    gap: 0 5rem;
+}
+
+.lista li {
+    background-color: #737373;
+    width: 10rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.pedidos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem 5rem;
+    flex-wrap: wrap;
+    max-height: 90vh;
+}
+
+.card {
+    max-width: 13rem;
+}
+
+.card-body {
+    background-color: #9f9f9f;
+}
+
+.card-img-top {
+    background-color: #9f9f9f;
+    max-height: 11rem;
+}
+
+
+
+/* cabeçalho */
